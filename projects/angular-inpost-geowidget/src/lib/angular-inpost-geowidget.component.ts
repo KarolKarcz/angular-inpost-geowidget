@@ -75,7 +75,7 @@ export class AngularInpostGeowidgetComponent implements OnInit, OnDestroy {
     this._map = new easyPack.modalMap((point, modal) => {
       modal.closeModal();
       this.onPointSelect.emit(point);
-    }, {width: 500, height: 600});
+    }, {width: 1200, height: 600});
   }
 
   private _executeDropdownWidget(): void {
